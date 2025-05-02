@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de Registro</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" /> 
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="form-container">
+      <form class="empresa-form" autocomplete="off">
+        <h2>Formulario de Registro</h2>
+
+        <div class="form-group">
+          <input type="hidden" id="id" name="id" required />
+        </div>
+
+        <div class="form-group">
+          <label for="nit">NIT:</label>
+          <input type="text" id="nit" name="nit" required />
+        </div>
+
+        <div class="form-group">
+          <label for="nombre">Nombre de la empresa:</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+
+        <div class="form-group">
+          <label for="representante">Representante legal:</label>
+          <input type="text" id="representante" name="representante" required />
+        </div>
+
+        <div class="form-group">
+          <label for="categoria">Categoría de la empresa:</label>
+          <select id="categoria" name="categoria" required>
+            <option value="">Seleccione</option>
+            <option value="Accesorios para Vehículos">Accesorios para Vehículos</option>
+            <option value="Agro">Agro</option>
+            <option value="Alimentos y Bebidas">Alimentos y Bebidas</option>
+            <option value="Antigüedades y Colecciones">Antigüedades y Colecciones</option>
+            <option value="Arte, Papelería y Mercería">Arte, Papelería y Mercería</option>
+            <option value="Bebés">Bebés</option>
+            <option value="Belleza y Cuidado Personal">Belleza y Cuidado Personal</option>
+            <option value="Boletas para Espectáculos">Boletas para Espectáculos</option>
+            <option value="Cámaras y Accesorios">Cámaras y Accesorios</option>
+            <option value="Carros, Motos y Otros">Carros, Motos y Otros</option>
+            <option value="Celulares y Teléfonos">Celulares y Teléfonos</option>
+            <option value="Computación">Computación</option>
+            <option value="Consolas y Videojuegos">Consolas y Videojuegos</option>
+            <option value="Construcción">Construcción</option>
+            <option value="Consultoría">Consultoría</option>
+            <option value="Deportes y Fitness">Deportes y Fitness</option>
+            <option value="Educación">Educación</option>
+            <option value="Electrodomésticos">Electrodomésticos</option>
+            <option value="Electrónica, Audio y Video">Electrónica, Audio y Video</option>
+            <option value="Entretenimiento">Entretenimiento</option>
+            <option value="Herramientas">Herramientas</option>
+            <option value="Hogar y Muebles">Hogar y Muebles</option>
+            <option value="Industrias y Oficinas">Industrias y Oficinas</option>
+            <option value="Inmuebles">Inmuebles</option>
+            <option value="Instrumentos Musicales">Instrumentos Musicales</option>
+            <option value="Juegos y Juguetes">Juegos y Juguetes</option>
+            <option value="Libros, Revistas y Comics">Libros, Revistas y Comics</option>
+            <option value="Mascotas">Mascotas</option>
+            <option value="Música, Películas y Series">Música, Películas y Series</option>
+            <option value="Recuerdos, Piñatería y Fiestas">Recuerdos, Piñatería y Fiestas</option>
+            <option value="Relojes y Joyas">Relojes y Joyas</option>
+            <option value="Ropa y Accesorios">Ropa y Accesorios</option>
+            <option value="Salud y Equipamiento Médico">Salud y Equipamiento Médico</option>
+            <option value="Servicios">Servicios</option>
+            <option value="Servicios Financieros">Servicios Financieros</option>
+            <option value="Tecnología">Tecnología</option>
+            <option value="Otra">Otra</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="telefono">Teléfono:</label>
+          <input type="number" id="telefono" name="telefono" required />
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" required />
+        </div>
+
+        <div class="form-group">
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion" required />
+        </div>
+
+        <div class="form-group full-width">
+          <button type="submit">Registrar Empresa</button>
+        </div>
+      </form>
+
+<!--
+      <div class="image-container">
+         <img src="travel.jpg" alt="Imagen alusiva a Comercio y Turismo" target="Imagen alusiva a Comercio y Turismo"> -->
+      </div>
+    </div>  
+
+    
+
+  </div>
+
+</body>
+</html>
+
